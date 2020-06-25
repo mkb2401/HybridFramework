@@ -17,7 +17,7 @@ public class Login {
 //	  BrowserFactory.getBrowser();
 //	  BrowserFactory.getBrowser();
 //	  System.out.println(BrowserFactory.getBrowserTitle());
-	  
+	  System.out.println("this is login class");
 	  LoginPage lp=new LoginPage();
 	  lp.setUsername("admin");
 	  lp.setPassword("admin123");
