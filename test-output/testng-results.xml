@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="70735" started-at="2020-06-29T07:23:02Z" finished-at="2020-06-29T07:24:13Z">
+  <suite name="Default suite" duration-ms="24786" started-at="2020-07-13T17:00:20Z" finished-at="2020-07-13T17:00:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="70735" started-at="2020-06-29T07:23:02Z" finished-at="2020-06-29T07:24:13Z">
+    <test name="Default test" duration-ms="24786" started-at="2020-07-13T17:00:20Z" finished-at="2020-07-13T17:00:45Z">
       <class name="P1.Login">
-        <test-method status="PASS" signature="startofTestCase(java.lang.reflect.Method)[pri:0, instance:P1.Login@589b3632]" name="startofTestCase" is-config="true" duration-ms="2298" started-at="2020-06-29T07:23:03Z" finished-at="2020-06-29T07:23:05Z">
+        <test-method status="PASS" signature="startofTestCase(java.lang.reflect.Method)[pri:0, instance:P1.Login@341b80b2]" name="startofTestCase" is-config="true" duration-ms="656" started-at="2020-07-13T17:00:20Z" finished-at="2020-07-13T17:00:21Z">
           <params>
             <param index="0">
               <value>
@@ -18,17 +18,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startofTestCase -->
-        <test-method status="FAIL" signature="tc01()[pri:0, instance:P1.Login@589b3632]" name="tc01" duration-ms="65562" started-at="2020-06-29T07:23:05Z" finished-at="2020-06-29T07:24:11Z">
+        <test-method status="FAIL" signature="tc01()[pri:0, instance:P1.Login@341b80b2]" name="tc01" duration-ms="19883" started-at="2020-07-13T17:00:21Z" finished-at="2020-07-13T17:00:41Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Welcome Admin']"}
   (Session info: chrome=83.0.4103.116)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-TCFRLFR', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+System info: host: 'DESKTOP-TCFRLFR', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\TOTALS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53816}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2a21cb79462c54e44b3e6edb3a339ffc
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\TOTALS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54838}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 59408166efc02e614875522857382469
 *** Element info: {Using=xpath, value=//a[text()='Welcome Admin']}]]>
             </message>
             <full-stacktrace>
@@ -36,10 +36,10 @@ Session ID: 2a21cb79462c54e44b3e6edb3a339ffc
   (Session info: chrome=83.0.4103.116)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-TCFRLFR', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+System info: host: 'DESKTOP-TCFRLFR', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\TOTALS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53816}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2a21cb79462c54e44b3e6edb3a339ffc
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\TOTALS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54838}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 59408166efc02e614875522857382469
 *** Element info: {Using=xpath, value=//a[text()='Welcome Admin']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -58,7 +58,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at factory.ElementFactory.getElement(ElementFactory.java:13)
 at factory.ElementFactory.clickElement(ElementFactory.java:24)
 at pages.HomePage.clickWelcomeAdmin(HomePage.java:13)
-at P1.Login.tc01(Login.java:33)
+at P1.Login.tc01(Login.java:35)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -90,7 +90,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc01 -->
-        <test-method status="PASS" signature="endoftestcase()[pri:0, instance:P1.Login@589b3632]" name="endoftestcase" is-config="true" duration-ms="2522" started-at="2020-06-29T07:24:11Z" finished-at="2020-06-29T07:24:13Z">
+        <test-method status="PASS" signature="endoftestcase(org.testng.ITestResult)[pri:0, instance:P1.Login@341b80b2]" name="endoftestcase" is-config="true" duration-ms="4076" started-at="2020-07-13T17:00:41Z" finished-at="2020-07-13T17:00:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc01 status=FAILURE method=Login.tc01()[pri:0, instance:P1.Login@341b80b2] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endoftestcase -->

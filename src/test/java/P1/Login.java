@@ -4,7 +4,9 @@ import java.io.IOException;
 import java.lang.reflect.Method;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -35,11 +37,15 @@ public class Login {
 	 	  
   }
   
-    
-  
+      
   @AfterMethod
-  public void endoftestcase()
+  public void endoftestcase(ITestResult oReport) throws WebDriverException, IOException
   {
+	  if(!oReport.isSuccess())
+	  {
+		  ReportUtil.logFail("Exception occurs. Message is " +oReport.getThrowable().getMessage());
+		  
+	  }
 	  ReportUtil.closereport();
   }
 }
