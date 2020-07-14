@@ -24,4 +24,11 @@ public static void clickElement(String strLoc) throws IOException
 	getElement(strLoc).click();
 	ReportUtil.logPass("Clicking element : "+strLoc);
 	}
+
+public static String getMessage(String strLoc) throws IOException
+{
+	String strMessage=getElement(strLoc).getText();
+	ReportUtil.logPass("Getting message from element : "+strLoc +"message:"+strMessage);
+	return strMessage;
+	}
 }
